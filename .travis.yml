@@ -1,0 +1,8 @@
+sudo: required
+services:
+    - docker
+
+script:
+    - docker build -t rohotomase/node .
+    - docker images rohotomase/node
+    
